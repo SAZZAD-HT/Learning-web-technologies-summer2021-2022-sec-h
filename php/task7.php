@@ -42,5 +42,7 @@ function alphabet(){
            <title>Document</title>
        </head>
        <body>    <table border='1'><tr>
-       <td><?php"
+       <td>
+       </td> <td>"
+                
 ?>
