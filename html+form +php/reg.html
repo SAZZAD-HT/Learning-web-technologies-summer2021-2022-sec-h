@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+
+    <body>
+        <form action="namecheack.php" method="post" enctype="">
+
+       Name<br> <input type="text" name="username" value=""/> <br>
+       <input type="submit" name="submit" value="Submit"/><br>
+    </form>
+    <form action="emailcheack.php" method="post" enctype="">
+		Email <br><input type="text" name="email" value=""/> <br>
+		<input type="submit" name="submit" value="Submit"/>  </form>
+        <form>
+            <legend>Gender</legend><fieldset>
+            <tr>
+                <td>Male<input type="radio" name="gender" value=""/> </td>
+                <td>Female<input type="radio" name="gender" value=""/> </td>
+                <td>Others<input type="radio" name="gender" value=""/> </td>
+                
+            </tr></fieldset><input type="submit" name="submit" value="Submit"/>
+        </form>
+        
+       
+       
+        <form><fieldset>
+            <legend>Date of Birth</legend>
+            <tr>
+                <input type="day" id="birthday" name="birthday">
+                <input type="mont" id="birthdmonth" name="birthmonth">
+                <input type="year" id="birthyear" name="birthyear">
+                <input type="submit" name="submit" value="Submit"/></fieldset>
+            </tr>
+        </form>
+
+
+
+
+
+
+        <form><fieldset>
+            <legend>Degree</legend>
+            <tr>
+                <td>SSC<input type="checkbox" name="degree1" value=""/> </td>
+                <td>HSC<input type="checkbox" name="degree2" value=""/> </td>
+                <td>Bsc<input type="checkbox" name="degree3" value=""/> </td>
+                </fieldset>
+            </tr><input type="submit" name="submit" value="Submit"/>
+        </form>
+
+        <label for="blood">Blood Group</label>
+
+<select name="Grp id=">
+  <option value="A+">A+</option>
+  <option value="B+">B+</option>
+  <option value="O+">O+</option>
+  <option value="AB+">AB+</option>
+</select>
+
+<form>
+    <legend>Profile Picture </legend>
+    <fieldset>
+<tr>
+    <td>UserId <input type="text" name="UserID" value=""/> <br><br></td>
+    <td>Picture<input type="file" name="file" value=""/> <br><br></td>
+    <td><input type="submit" name="submit" value="Submit"/></td>
+</tr></fieldset>
+
+</form>
+    </body>
+</html>
