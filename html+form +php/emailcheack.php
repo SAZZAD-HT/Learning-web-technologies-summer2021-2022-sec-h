@@ -1,7 +1,8 @@
 <?php
 $email= $_POST['email'];
 
-if (!preg_match("/^[a-zA-Z-' ]*$/",$email)) {
- echo "Only letters and white space allowed";
+$email = test_input($_POST["email"]);
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  $emailErr = "Invalid email format";
 }
 ?>
