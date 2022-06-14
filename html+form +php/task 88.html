@@ -1,0 +1,107 @@
+<html>
+<head>
+   
+    <title>HTML-FORM Using PHP</title>
+</head>
+<body>
+  <form action="namecheack.php" method="POST">
+      <table border="1">
+         <tr><td colspan="3" align="center">
+             <h2>Personal Profile</h2>
+         </td>
+             
+         </tr>
+            <tr>
+              <td>
+                 Name:
+                  
+              </td>
+              <td>
+                 <input type="text" name="username" value="" placeholder="">
+             
+              </tr>
+        
+          <tr>
+              <td>
+                Email:
+              </td>
+              <td><form action="emailcheack.php" method="POST"></form>
+             <input type="email" name="email" value="" placeholder=""> </form>
+              </td>
+              </td>
+          </tr>
+          
+          <tr>
+              <td>
+              Gender:
+              </td>
+              <td >
+              <input type="radio" name="gender" value="" placeholder=""> Male
+              <input type="radio" name="gender" value="" placeholder=""> Female
+              <input type="radio" name="gender" value="" placeholder=""> Other 
+              </td>
+          </tr>
+          <tr>
+              <td>
+              Date of Birth:
+              </td>
+              <td >
+              <input type="date" name="birthday"> 
+              </td>
+          </tr>
+          <tr>
+              <td>
+              Blood Group:
+              </td>
+              <td >
+              <select name type="group id =">
+              	<option value="A+">A+</option>
+              	<option value="A-">A-</option>
+              	<option value="B+">B+</option>
+              	<option value="B-">B-</option>
+              	<option value="AB+">AB+</option>
+              	<option value="AB-">AB-</option>
+              	<option value="O+">O+</option>
+              	<option value="O-">O-</option>
+              </td>
+          </tr>
+          <tr>
+          	<td>
+              Degree
+              </td>
+              <td>
+                        <input type="checkbox" name="degree" value="SSC" placeholder=""> SSC 
+						<input type="checkbox" name="degree" value="HSC" placeholder=""> HSC
+						<input type="checkbox" name="degree" value="BSc" placeholder=""> BSc
+						<input type="checkbox" name="degree" value="MSc" placeholder=""> MSc
+       
+              </td>
+          </tr>
+          
+           <tr>
+              <td>
+              Photo
+              </td>
+              <td>
+              <input type="file" name=""> <br>
+       
+              </td>
+          </tr>
+          <tr><td colspan="3" align="center">
+            <br>
+         </td>
+             
+         </tr>
+         <tr><td colspan="3" align="left">
+       <input type="reset" name="" value="Clear" placeholder="">
+       <input type="submit" name="" value="Submit" placeholder="">
+         </td>
+             
+         </tr>
+         
+      </table>
+     
+       
+   </form>
+</body>
+</html>
