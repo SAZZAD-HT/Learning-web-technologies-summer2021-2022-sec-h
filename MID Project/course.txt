@@ -1,0 +1,4 @@
+AI|01|java|a good course|03
+c#|02|algorithm|.net|03
+java|03|java|a good course|03||||
+AI|01|java|aa|-1

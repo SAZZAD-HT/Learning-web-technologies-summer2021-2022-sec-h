@@ -1,0 +1,38 @@
+vUniversity Management Functionality:
+1. Can create new department
+         Add data-----
+    Department Name
+      Department Type
+       Department Courses{
+
+               Course name 
+                   Course std limit  
+                       course duration }
+
+
+2. Can view Departments list
+            view------fetch data
+        Department Name
+      Department Type
+       Department Courses
+            
+3. Offer Course to the students
+         Fetch Students Id
+               Students Name
+           assign std info into a course and update students course key
+           
+4. Set faculty 
+            5.assign  set a faculty to a course 
+5. Teacher Information creation and room allocation6. View Results of students
+
+                ADD Teacher+ room  add
+               mangement can view result 
+
+                  
+7. Room & Class Time Allocation
+       add room and class time to course
+8. Schedule class time
+9. Schedule term exam routing
+ exam routine with exsisting course
+10. Contact with any students and facultiesas book search, borrowing books etc.
+         Students profile
