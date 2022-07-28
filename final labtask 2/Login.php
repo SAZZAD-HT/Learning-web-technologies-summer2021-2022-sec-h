@@ -92,6 +92,7 @@ myInput.onkeyup = function() {
     length.classList.add("invalid");
   }
 }
+
 </script>
             
 
@@ -108,20 +109,18 @@ input {
     margin-bottom: 16px;
   }
   
-  /* Style the submit button */
+  
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
   }
-  
-  /* Style the container for inputs */
+
   .loginatt {
     background-color: #f1f1f1;
     padding: 20px;
   }
   
-  /* The message box is shown when the user clicks on the password field */
-  #message {
+   #message {
     display:none;
     background: #f1f1f1;
     color: #000;
@@ -135,7 +134,7 @@ input {
     font-size: 18px;
   }
   
-  /* Add a green text color and a checkmark when the requirements are right */
+  
   .valid {
     color: green;
   }
@@ -146,7 +145,7 @@ input {
     content: "&#10004;";
   }
   
-  /* Add a red text color and an "x" icon when the requirements are wrong */
+ 
   .invalid {
     color: red;
   }
@@ -209,8 +208,17 @@ input {
                 }
                 else{
                     echo "<h1>Wrong user name or password</h1>";
+                    ?>
+                    
+                    <script>
+                    function change(){
+                   document.getElementsByTagName('h1')[0].innerHTML = "Login failed";
+                        }
 
-                }
+
+                    </script>
+
+              <?php  }
 
                 
             }
