@@ -27,6 +27,25 @@
                 <td><br><a href="registration.php">Register</a></td>
                
             </tr>
+            <script>
+             
+            
+            console.log(a);
+            document.write('test');
+
+            function change(){
+                document.getElementsByTagName('h1')[0].innerHTML = "My JS Example!";
+            }
+            function getname(){
+                let username = document.getElementById('username').value;
+                if(username == ""){
+                    document.getElementsByTagName('h1')[0].innerHTML = "Null value";
+                }else{
+                    document.getElementsByTagName('h1')[0].innerHTML = username;
+                }
+
+            }
+        </script>
             
 
 
