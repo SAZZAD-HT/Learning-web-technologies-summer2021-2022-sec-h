@@ -1,5 +1,5 @@
 vUniversity Management Functionality:
-1. Can create new department
+<h1> Can create new department</h1>
          Add data-----
     Department Name
       Department Type
@@ -8,7 +8,6 @@ vUniversity Management Functionality:
                Course name 
                    Course std limit  
                        course duration }
-
 
 2. Can view Departments list
             view------fetch data
